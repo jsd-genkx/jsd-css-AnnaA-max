@@ -36,9 +36,9 @@ section {
 	padding: 1rem 3rem;
 }
 
-.story {
+/* .story {
 	display: none;
-}
+} */
 
 header {
 	height: var(--nav-height);
@@ -67,5 +67,5 @@ footer {
 	background-color: var(--color-secondary);
 	color: var(--color-white);
 
-	/* grid-area: footer; */
+	grid-area: footer;
 }
