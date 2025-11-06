@@ -25,15 +25,16 @@ body {
 	background-color: var(--color-accent);
 	width: 100%;
 	min-height: 100dvh;
+	outline: solid 5x var(--color-black);
 
 	display: flex;
-	/* gap: 1rem; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* align-content: center; */
-	/* flex-wrap: wrap; */
+	gap: 1rem;
+	justify-content:center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
 
-	/* flex-direction: column; */
+	flex-direction: row-reverse;
 	/* height: 90vh; */
 }
 
@@ -45,11 +46,14 @@ body {
 	color: var(--color-white);
 	border: solid var(--color-white) 5px;
 
-	/* flex-shrink: 1;
+	flex-shrink: 1;
 	flex-grow: 0;
-	flex-basis: 300px; */
+	flex-basis: 300px;
 
 	/* flex:1; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* .box3 {
